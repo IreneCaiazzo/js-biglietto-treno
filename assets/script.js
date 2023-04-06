@@ -16,30 +16,33 @@ console.log(età);
 
 const km = parseInt(prompt("Quanti chilometri vuoi percorrere?"));
 
-console.log(km)
+console.log(km);
 
 //prezzo
 
-const prezzokm = 0.21
+const prezzokm = 0.21;
 
 let prezzo = km * prezzokm;
 
-console.log(prezzo)
+console.log(prezzo);
 
 //sconto
 
 
-// if (età < '18') {
-//     sconto = km * 0.21 / 100 * 5
-// } else if (età > 65) {
-//     sconto = km * 0.21 /
-// } else {
-// }
+ if (età < '18') {
+    let scontoMinori = prezzo - (prezzo / 100 * 20);
 
-// prezzo
+    console.log(scontoMinori);
 
-// const prezzo = km * 0.21 - sconto 
+    document.getElementById("prezzoFinale").innerHTML = scontoMinori;
 
-// console.log(prezzo)
+ } 
+ else if (età > 65) {
+
+ } 
+ 
+ else {
+ }
+
 
 
