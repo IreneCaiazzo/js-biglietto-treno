@@ -30,6 +30,7 @@ console.log(prezzo);
 
 
  if (età < '18') {
+
     let scontoMinori = prezzo - (prezzo / 100 * 20);
 
     console.log(scontoMinori);
@@ -39,6 +40,12 @@ console.log(prezzo);
  } 
  else if (età > 65) {
 
+    let scontoAnziani = prezzo - (prezzo / 100 * 40);
+
+    console.log(scontoAnziani);
+
+    document.getElementById("prezzoFinale").innerHTML = scontoAnziani;
+
  } 
  
  else {
@@ -46,3 +53,4 @@ console.log(prezzo);
 
 
 
+//  scontoMinori = scontoMinori.toFixed(2);
