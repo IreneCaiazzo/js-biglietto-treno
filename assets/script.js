@@ -8,9 +8,38 @@
 
 //età
 
-const età = prompt("Quanti anni hai?");
+const età = parseInt(prompt("Quanti anni hai?"));
+
+console.log(età);
 
 // chilometri
 
-const chilometri = prompt("Quanti Km vuoi percorrere?");
+const km = parseInt(prompt("Quanti chilometri vuoi percorrere?"));
+
+console.log(km)
+
+//prezzo
+
+const prezzokm = 0.21
+
+let prezzo = km * prezzokm;
+
+console.log(prezzo)
+
+//sconto
+
+
+// if (età < '18') {
+//     sconto = km * 0.21 / 100 * 5
+// } else if (età > 65) {
+//     sconto = km * 0.21 /
+// } else {
+// }
+
+// prezzo
+
+// const prezzo = km * 0.21 - sconto 
+
+// console.log(prezzo)
+
 
