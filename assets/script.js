@@ -35,6 +35,8 @@ console.log(prezzo);
 
     console.log(scontoMinori);
 
+   scontoMinori = scontoMinori.toFixed(2);
+
     document.getElementById("prezzoFinale").innerHTML = scontoMinori;
 
  } 
@@ -44,6 +46,8 @@ console.log(prezzo);
 
     console.log(scontoAnziani);
 
+    scontoAnziani = scontoAnziani.toFixed(2)
+
     document.getElementById("prezzoFinale").innerHTML = scontoAnziani;
 
  } 
@@ -51,6 +55,8 @@ console.log(prezzo);
  else {
 
     console.log(prezzo);
+
+    prezzo = prezzo.toFixed(2)
 
     document.getElementById("prezzoFinale").innerHTML = prezzo;
 
