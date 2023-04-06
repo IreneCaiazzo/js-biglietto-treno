@@ -49,6 +49,11 @@ console.log(prezzo);
  } 
  
  else {
+
+    console.log(prezzo);
+
+    document.getElementById("prezzoFinale").innerHTML = prezzo;
+
  }
 
 
